@@ -1,0 +1,859 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2024-03-29T17:03:13.717Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "1",
+    "object_repr": "juliaifc22@gmail.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\", \"CPF\", \"Phone\", \"Birth Date\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2024-03-29T17:11:22.433Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1",
+    "object_repr": "( - 8043836f-eddf-42fc-82b4-f0d8b70757f3)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2024-03-29T17:12:16.825Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1",
+    "object_repr": "(AAA - 8043836f-eddf-42fc-82b4-f0d8b70757f3)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2024-03-29T17:12:58.659Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "saraiva",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2024-03-29T17:13:04.050Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "seguinte",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2024-03-29T17:13:10.444Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "terror",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2024-03-29T17:13:15.881Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "fantasia",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2024-03-29T17:13:18.403Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "suspense",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2024-03-29T17:13:23.281Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "conto",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2024-03-29T17:13:39.240Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "clarice lispector",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2024-03-29T17:13:44.230Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Rick Riordan",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2024-03-29T17:13:48.551Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Alice Oseman",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2024-03-29T17:13:56.713Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Jane austen",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2024-03-29T17:14:38.305Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Percy Jackson (3)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 4,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 4,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 4,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 4,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 5,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 5,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 5,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 5,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add Usuário",
+    "content_type": 6,
+    "codename": "add_usuario"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change Usuário",
+    "content_type": 6,
+    "codename": "change_usuario"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete Usuário",
+    "content_type": 6,
+    "codename": "delete_usuario"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view Usuário",
+    "content_type": 6,
+    "codename": "view_usuario"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add Autor",
+    "content_type": 7,
+    "codename": "add_autor"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change Autor",
+    "content_type": 7,
+    "codename": "change_autor"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete Autor",
+    "content_type": 7,
+    "codename": "delete_autor"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view Autor",
+    "content_type": 7,
+    "codename": "view_autor"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add categoria",
+    "content_type": 8,
+    "codename": "add_categoria"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change categoria",
+    "content_type": 8,
+    "codename": "change_categoria"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete categoria",
+    "content_type": 8,
+    "codename": "delete_categoria"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view categoria",
+    "content_type": 8,
+    "codename": "view_categoria"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add editora",
+    "content_type": 9,
+    "codename": "add_editora"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change editora",
+    "content_type": 9,
+    "codename": "change_editora"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete editora",
+    "content_type": 9,
+    "codename": "delete_editora"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view editora",
+    "content_type": 9,
+    "codename": "view_editora"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add livro",
+    "content_type": 10,
+    "codename": "add_livro"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change livro",
+    "content_type": 10,
+    "codename": "change_livro"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete livro",
+    "content_type": 10,
+    "codename": "delete_livro"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view livro",
+    "content_type": 10,
+    "codename": "view_livro"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add document",
+    "content_type": 11,
+    "codename": "add_document"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change document",
+    "content_type": 11,
+    "codename": "change_document"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete document",
+    "content_type": 11,
+    "codename": "delete_document"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view document",
+    "content_type": 11,
+    "codename": "view_document"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can add image",
+    "content_type": 12,
+    "codename": "add_image"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can change image",
+    "content_type": 12,
+    "codename": "change_image"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can delete image",
+    "content_type": 12,
+    "codename": "delete_image"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can view image",
+    "content_type": 12,
+    "codename": "view_image"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "usuario",
+    "model": "usuario"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "livraria",
+    "model": "autor"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "livraria",
+    "model": "categoria"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "livraria",
+    "model": "editora"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "livraria",
+    "model": "livro"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "uploader",
+    "model": "document"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 12,
+  "fields": {
+    "app_label": "uploader",
+    "model": "image"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "22o6dh9r8kctkbrmlv0dpvamtpd5qh08",
+  "fields": {
+    "session_data": ".eJxVjEEOgjAQRe_StWlmpjClLt1zBjJMq6CmTSisjHdXEha6_e-9_zKDbOs0bDUtwxzN2aA5_W6j6CPlHcS75FuxWvK6zKPdFXvQavsS0_NyuH8Hk9TpWwOHziO5hoEI2IMLEgI6JSElbFlFx6vjwBGo6VrtWBHBIZAPDK15fwCK2DV9:1rpvpS:WQuOhDl3YQuuNXiVQHs_lwNjAyBJZtRCH4flqer1yfA",
+    "expire_date": "2024-04-11T19:54:26.427Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "o7ufh6ffkjsitod7pk1yyrvk8ay447xu",
+  "fields": {
+    "session_data": ".eJxVjEEOgjAQRe_StWlmpjClLt1zBjJMq6CmTSisjHdXEha6_e-9_zKDbOs0bDUtwxzN2aA5_W6j6CPlHcS75FuxWvK6zKPdFXvQavsS0_NyuH8Hk9TpWwOHziO5hoEI2IMLEgI6JSElbFlFx6vjwBGo6VrtWBHBIZAPDK15fwCK2DV9:1rqDXp:SebdboSExceEN9o_zvKu2kssJif6BcvPwv7P00fnZwA",
+    "expire_date": "2024-04-12T14:49:25.072Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "zkxfcwzrcm4b33cpezoih31p11lywott",
+  "fields": {
+    "session_data": ".eJxVjEEOgjAQRe_StWlmpjClLt1zBjJMq6CmTSisjHdXEha6_e-9_zKDbOs0bDUtwxzN2aA5_W6j6CPlHcS75FuxWvK6zKPdFXvQavsS0_NyuH8Hk9TpWwOHziO5hoEI2IMLEgI6JSElbFlFx6vjwBGo6VrtWBHBIZAPDK15fwCK2DV9:1rqFbZ:2_nFsK2NlYAlMbsy_SvFW0fX5dS3ZZQtJdRMwil_9fc",
+    "expire_date": "2024-04-12T17:01:25.844Z"
+  }
+},
+{
+  "model": "usuario.usuario",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$720000$VVbvgn7sNqx01nw6I1QyMG$05bo2jZiiQVS5t/oASRaEzoVtjYYoTcgGBCiHu7/BP4=",
+    "last_login": "2024-03-29T17:01:25.737Z",
+    "is_superuser": true,
+    "first_name": "júlia",
+    "last_name": "fuck",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2024-03-28T19:53:53.767Z",
+    "email": "juliaifc22@gmail.com",
+    "cpf": "13754569954",
+    "telefone": "47283012313",
+    "data_nascimento": "2007-10-22",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 1,
+  "fields": {
+    "attachment_key": "8043836f-eddf-42fc-82b4-f0d8b70757f3",
+    "public_id": "ba60287d-5e43-4549-8aca-8d3140cf468f",
+    "file": "images/ba60287d-5e43-4549-8aca-8d3140cf468f.png",
+    "description": "AAA",
+    "uploaded_on": "2024-03-29T17:11:22.431Z"
+  }
+},
+{
+  "model": "livraria.autor",
+  "pk": 1,
+  "fields": {
+    "nome": "clarice lispector",
+    "email": null
+  }
+},
+{
+  "model": "livraria.autor",
+  "pk": 2,
+  "fields": {
+    "nome": "Rick Riordan",
+    "email": null
+  }
+},
+{
+  "model": "livraria.autor",
+  "pk": 3,
+  "fields": {
+    "nome": "Alice Oseman",
+    "email": null
+  }
+},
+{
+  "model": "livraria.autor",
+  "pk": 4,
+  "fields": {
+    "nome": "Jane austen",
+    "email": null
+  }
+},
+{
+  "model": "livraria.categoria",
+  "pk": 1,
+  "fields": {
+    "descricao": "terror"
+  }
+},
+{
+  "model": "livraria.categoria",
+  "pk": 2,
+  "fields": {
+    "descricao": "fantasia"
+  }
+},
+{
+  "model": "livraria.categoria",
+  "pk": 3,
+  "fields": {
+    "descricao": "suspense"
+  }
+},
+{
+  "model": "livraria.categoria",
+  "pk": 4,
+  "fields": {
+    "descricao": "conto"
+  }
+},
+{
+  "model": "livraria.editora",
+  "pk": 1,
+  "fields": {
+    "nome": "saraiva",
+    "site": null
+  }
+},
+{
+  "model": "livraria.editora",
+  "pk": 2,
+  "fields": {
+    "nome": "seguinte",
+    "site": null
+  }
+},
+{
+  "model": "livraria.livro",
+  "pk": 1,
+  "fields": {
+    "titulo": "Percy Jackson",
+    "isbn": null,
+    "quantidade": 3,
+    "preco": "50.00",
+    "categoria": 2,
+    "editora": 2,
+    "capa": 1,
+    "autores": [
+      2
+    ]
+  }
+}
+]
