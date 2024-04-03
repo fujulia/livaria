@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from .models import Categoria, Editora, Autor, Livro
+from .models import Categoria, Editora, Autor, Livro, Compra, ItensCompra
 
 # Register your models here.
 @admin.register(Autor)
@@ -31,3 +31,10 @@ class LivroAdmin(admin.ModelAdmin):
     list_filter = ('editora', 'categoria')
     ordering = ('titulo', 'editora', 'categoria')
     list_per_page = 25
+
+class ItensCompraInline(admin.TabularInline):
+    model = ItensCompra
+
+@admin.register(Compra)
+class CompraAdmin(admin.ModelAdmin):
+    inlines = [ItensCompraInline]

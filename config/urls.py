@@ -11,6 +11,8 @@ from uploader.router import router as uploader_router
 from drf_spectacular.views import ( SpectacularAPIView, SpectacularRedocView, SpectacularSwaggerView,
 )
 
+from livraria.views import UsuarioViewSet
+
 from rest_framework_simplejwt.views import (TokenObtainPairView, TokenRefreshView,)
 
 from livraria.views import CategoriaViewSet, EditoraViewSet, AutorViewSet, LivroViewSet
@@ -20,6 +22,7 @@ router.register(r"categorias", CategoriaViewSet)
 router.register(r"editoras", EditoraViewSet)
 router.register(r"autores" , AutorViewSet)
 router.register(r"livros", LivroViewSet)
+router.register(r"usuarios", UsuarioViewSet)
 
 urlpatterns = [
     path("admin/", admin.site.urls),
