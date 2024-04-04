@@ -5,3 +5,4 @@ class CompraSerializer(ModelSerializer):
     class Meta:
         model = Compra
         fields = "__all__" 
+        usuario = CharField(source="usuario.email", read_only=True)
