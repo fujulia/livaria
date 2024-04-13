@@ -18,10 +18,11 @@ class CompraSerializer(ModelSerializer):
     status = CharField(source="get_status_display", read_only=True)
     itens = ItensCompraSerializer(many=True, read_only=True)
     data = serializers.DateTimeField(read_only=True)
+    tipo_pagamento = CharField(source="get_tipo_pagamento_display", read_only=True)
     
     class Meta:
         model = Compra
-        fields = ("id", "usuario", "status", "total", "itens", "data")
+        fields = ("id", "usuario", "status", "total", "itens", "data", "tipo_pagamento")
     
 class CriarEditarItensCompraSerializer(ModelSerializer):
     class Meta:
@@ -31,7 +32,7 @@ class CriarEditarItensCompraSerializer(ModelSerializer):
     def validate(self, data):
         if data["quantidade"]> data["livro"].quantidade:
             raise serializers.ValidationError(
-                {"quantidade": "Qauntidade solicitada não disponivel em estoque."}
+                {"quantidade": "Quantidade solicitada não disponivel em estoque."}
             )
         return data
         

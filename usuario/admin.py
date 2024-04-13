@@ -35,7 +35,7 @@ class CustomUserAdmin(UserAdmin):
         ),
         (
             _("Personal info"),
-            {"fields": ("cpf", "telefone", "data_nascimento")},
+            {"fields": ("cpf", "telefone", "data_nascimento", "tipo_usuario")},
         ),
         (
             _("Permissions"),
